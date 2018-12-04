@@ -20,7 +20,7 @@ Puedes instalarlo usando Anaconda:
 Creamos un nuevo environment:
 
 ```bash
-conda create -n py37
+conda create -n py37 python=3.7
 source activate py37
 ```
 
