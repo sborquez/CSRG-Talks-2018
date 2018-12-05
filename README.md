@@ -10,6 +10,7 @@ Si quieres correr este notebook en tu máquina necesitarás los siguientes módu
 * jupyter
 * numpy
 * pandas
+* xlrd
 * matplotlib
 * scikit-image
 * plotly
@@ -27,7 +28,7 @@ source activate py37
 E instalamos los diferentes módulos:
 
 ```bash
-conda install jupyter pandas numpy scikit-learn scikit-image matplotlib
+conda install jupyter pandas numpy scikit-learn scikit-image matplotlib xlrd
 conda install -c plotly plotly
 pip install pynrrd
 ```
